@@ -15,7 +15,7 @@ incident response.
 ##  Lab Reports
 | Date | Lab | Topic | Report |
 |------|-----|-------|--------|
-| Oct 10, 2026 | Day 2 | Exploiting vsftpd 2.3.4 Backdoor | [View](./reports/Day2_vsftpd_Exploit.md) |
+| Oct 10, 2026 | Day 2 | Exploiting vsftpd 2.3.4 Backdoor | [View](./Day2_vsftpd_Exploit.md) |
 | Oct 11, 2026 | Day 3 | Network Analysis of the Attack | Coming soon |
 
 ## Skills Demonstrated
