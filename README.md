@@ -16,9 +16,19 @@ incident response.
 * Utilized the Wazuh dashboard to conduct live threat hunting during an active penetration test.
 * Successfully identified and correlated the ProFTPD `modcopy_exec` exploit logs (Rule ID `11201`), confirming the SIEM's ability to detect remote code execution attempts.
 
-**Next Steps:**
-* [ ] Authoring custom Wazuh XML detection rules to alert on malicious file uploads (`STOR` commands).
-* [ ] Exploring local privilege escalation via the OverlayFS vulnerability (CVE-2015-1328) to obtain `root` access.
+### 🚩 Full System Compromise & Persistence (Metasploitable 3)
+
+**Privilege Escalation:**
+*   Identified the target kernel version (`3.13.0-24-generic`) and recognized its vulnerability to OverlayFS (CVE-2015-1328).
+*   Manually transferred the exploit source code (`37292.c`) to the target using a Meterpreter session.
+*   Compiled the exploit on the victim machine using `gcc` and successfully executed it to escalate privileges from `www-data` to `root` (`uid=0`).
+
+**Establishing Persistence (MITRE ATT&CK T1136):**
+*   Maintained access to the compromised host by creating a new local user account (`backdoor`).
+*   Utilized the escalated `root` privileges to add the new account to the `sudo` group, granting it full administrative rights.
+*   Verified persistence by establishing a direct SSH connection from the Kali attacker machine using the new backdoor credentials.
+
+
 
 ##  Lab Environment
 - **Attacker:** Kali Linux
