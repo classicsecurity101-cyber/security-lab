@@ -24,6 +24,7 @@ I am an aspiring cybersecurity professional building hands-on skills in offensiv
 | Category | Topic | Report |
 |----------|-------|--------|
 | Exploitation | Exploiting vsftpd 2.3.4 Backdoor | [View](./vsftpd-2.3.4-Backdoor-Exploit.md) |
+| Web Application Security | Server-Side Vulnerabilities (Path Traversal, Access Control, File Upload, OS Command Injection, SSRF) | [View](./PortSwigger-Server-Side-Vulnerabilities.md) |
 | Network Analysis | Packet Analysis of the Attack | *In progress* |
 
 ## Recent Updates
@@ -58,6 +59,7 @@ I am an aspiring cybersecurity professional building hands-on skills in offensiv
 - Packet capture and analysis (Wireshark)
 - SIEM deployment and threat hunting (Wazuh)
 - MITRE ATT&CK mapping (T1190, T1136)
+- Web application security testing with Burp Suite (path traversal, access control, file upload, OS command injection, SSRF)
 
 ## Lessons Learned
 
