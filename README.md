@@ -21,12 +21,10 @@ I am an aspiring cybersecurity professional building hands-on skills in offensiv
 
 ## Lab Reports
 
-| Date | Lab | Topic | Report |
-|------|-----|-------|--------|
-| Oct 10, 2026 | Day 2 | Exploiting vsftpd 2.3.4 Backdoor | [View](./Day2_vsftpd_Exploit.md) |
-| — | Day 3 | Network Analysis of the Attack | *In progress* |
-
-> Day 1 covered initial lab setup (VirtualBox networking, Kali/Metasploitable install) and was not written up separately.
+| Category | Topic | Report |
+|----------|-------|--------|
+| Exploitation | Exploiting vsftpd 2.3.4 Backdoor | [View](./vsftpd-2.3.4-Backdoor-Exploit.md) |
+| Network Analysis | Packet Analysis of the Attack | *In progress* |
 
 ## Recent Updates
 
