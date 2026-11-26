@@ -25,6 +25,7 @@ I am an aspiring cybersecurity professional building hands-on skills in offensiv
 |----------|-------|--------|
 | Exploitation | Exploiting vsftpd 2.3.4 Backdoor | [View](./vsftpd-2.3.4-Backdoor-Exploit.md) |
 | Web Application Security | Server-Side Vulnerabilities (Path Traversal, Access Control, File Upload, OS Command Injection, SSRF) | [View](./PortSwigger-Server-Side-Vulnerabilities.md) |
+| Web Application Security | Automated SQL Injection & Credential Extraction (sqlmap on DVWA) | [View](./DVWA-SQL-Injection-sqlmap.md) |
 | Network Analysis | Packet Analysis of the Attack | *In progress* |
 
 ## Recent Updates
@@ -60,6 +61,7 @@ I am an aspiring cybersecurity professional building hands-on skills in offensiv
 - SIEM deployment and threat hunting (Wazuh)
 - MITRE ATT&CK mapping (T1190, T1136)
 - Web application security testing with Burp Suite (path traversal, access control, file upload, OS command injection, SSRF)
+- Automated SQL injection exploitation and database enumeration with sqlmap, including filter/WAF evasion (tamper scripts) and hash cracking
 
 ## Lessons Learned
 
